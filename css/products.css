@@ -1,0 +1,113 @@
+.title {
+    text-transform:uppercase;
+    font-family:'Roboto';
+    font-weight: 800;
+    color: rgb(81,81,81);
+    text-align: center;
+    font-size:48px;
+   
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 165px;
+    height: 8px;
+    background-color:#1abc9c;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-bottom: 90px;
+    margin-left: auto;
+}
+
+.product-card {
+    float: left;
+    position: relative;
+    transition: 0.2s linear;
+}
+
+.product-card:nth-child(-n+5) {
+    margin-bottom: 30px;
+}
+
+.product-card:not(:nth-child(5n)) {
+    margin-right: 25px;
+}
+.product-card:last-child{
+    margin-right:0;
+}
+
+.product-card:nth-child(n+6) {
+    margin-bottom: 100px;
+}
+
+.product-card:hover {
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.product-card:hover .name {
+    background-color: #1abc9c; 
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.product-card:hover .price {
+    background-color: #7fd9c7;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.card-image {
+    width: 255px;
+    height: 320px;
+
+}
+.card-name {
+    position: absolute;
+    bottom: 1%;
+    
+}
+
+.name{
+    font-family:'Roboto';
+    font-weight: 800;
+    font-size:18px;
+    color: #ffffff;
+    background: #323232;
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    padding: 9px 20px 5px;
+    transition: 0.2s linear;
+}
+.price {
+    font-family:'Roboto';
+    font-weight: 800;
+    font-size:18px;
+    color: #ffffff;
+    background: #8c8c8c;
+    display: inline-block;
+    width: 55px;
+    height: 40px;
+    padding: 10px 12px;
+    transition: 0.2s linear;
+}
+
+.price::before {
+    content: '\0024';
+    
+}
+
+.menu-list{
+    float:right;
+    
+}
+.title-products ::after {
+    display: block;
+    background-color:#1abc9c;
+    width: 165px;
+    height: 7px;
+    content: '';    
+}
