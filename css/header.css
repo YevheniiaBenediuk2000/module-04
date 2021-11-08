@@ -1,12 +1,11 @@
 .container {
-    width: 1120px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header{
-    margin-top:42px;
-    margin-bottom:100px;
- 
+.header {
+  margin-top: 42px;
+  margin-bottom: 100px;
 }
 .logo::first-letter {
   color: rgb(26, 188, 156);
@@ -17,12 +16,12 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  font-size:30px;  
+  font-size: 30px;
   float: left;
 }
 .list-item {
-    float: left;
-    margin-right: 34px;
+  float: left;
+  margin-right: 34px;
 }
 .list-item:last-child {
   margin-right: 0;
@@ -34,8 +33,7 @@
   text-transform: uppercase;
   font-weight: bold;
   transition: 0.2s ease-out;
-  font-size:14px;
-  
+  font-size: 14px;
 }
 
 .link-item:hover {
